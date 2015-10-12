@@ -3,9 +3,9 @@ var http = require('http');
 
 //defines a port we wil listne to
 var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
-var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';
 
-var nomo = require('node-monkey').start({host:server_ip_address, port:'8000'});
+//var nomo = require('node-monkey').start({host:server_ip_address, port:'8000'});
 
 //A function that handles requests and sends resonses
 function handleRequest(request, response){
