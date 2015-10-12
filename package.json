@@ -1,9 +1,9 @@
 {
-  "name" : "myFirstHTTPServer",
+  "name" : "server2",
   "version" : "0.0.1",
   "dependencies": {
     "http-server": "*",
     "node-monkey": "*"
   },
-  "main": "myFirstHTTPServer.js"
+  "main": "server2.js"
 }
